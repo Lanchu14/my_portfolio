@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 import profileImg from './assests/lanchan.jpg';
-// import logo from './assests/logo.png'; // Add your logo here
+// import logo from './assests/logo.png';
 
 import {
   FaEnvelope,
@@ -19,6 +19,27 @@ function App() {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  // Smooth scrolling effect
+  useEffect(() => {
+    const anchors = document.querySelectorAll('a[href^="#"]');
+    anchors.forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+        setMenuOpen(false); // Close menu on mobile after click
+      });
+    });
+
+    return () => {
+      anchors.forEach(anchor => {
+        anchor.removeEventListener("click", () => {});
+      });
+    };
+  }, []);
 
   return (
     <div className="App dark">
@@ -52,9 +73,8 @@ function App() {
           <h2>Hello</h2>
           <h1>I am Lanchan J</h1>
           <p>
-          I am a computer science student passionate about coding, problem-solving, and building innovative solutions. 
-          I aim to contribute to real-world projects and grow with collaborative teams.
-
+            I am a computer science student passionate about coding, problem-solving, and building innovative solutions. 
+            I aim to contribute to real-world projects and grow with collaborative teams.
           </p>
         </div>
       </main>
@@ -64,7 +84,7 @@ function App() {
         <div className="container">
           <h2>About Me</h2>
           <p>
-          As an engineering student, I am driven by curiosity and a passion for solving complex problems.  
+            As an engineering student, I am driven by curiosity and a passion for solving complex problems.  
             I enjoy learning about new technologies and applying my knowledge to create innovative solutions.  
             My goal is to contribute to impactful projects and grow as a professional in the field.
           </p>
