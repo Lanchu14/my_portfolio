@@ -135,13 +135,13 @@ function App() {
         <div className="container">
           <h2>Contact Me / Hire Me</h2>
           <div className="buttons">
-            <a href="tel:+1234567890" className="btn">
+            <a href="tel:+919353989172" className="btn">
               <FaPhoneAlt /> Call Me
             </a>
             <a href="mailto:lanchanjain5@gmail.com" className="btn">
               <FaEnvelope /> Email Me
             </a>
-            <a href="https://www.linkedin.com/in/your-profile" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/lanchan-j-641178252/" className="btn" target="_blank" rel="noreferrer">
               <FaLinkedin /> LinkedIn
             </a>
           </div>
@@ -154,8 +154,8 @@ function App() {
           <p>&copy; 2025 Lanchan Jain. All rights reserved.</p>
           <div className="footer-icons">
             <a href="mailto:lanchanjain5@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope /></a>
-            <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-            <a href="https://github.com/your-username" target="_blank" rel="noreferrer"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/lanchan-j-641178252/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+            <a href="https://github.com/Lanchu14" target="_blank" rel="noreferrer"><FaGithub /></a>
           </div>
         </div>
       </footer>
