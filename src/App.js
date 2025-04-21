@@ -108,27 +108,28 @@ function App() {
 
       {/* Projects Section */}
       <section className="projects-section" id="projects">
-        <div className="container">
-          <h2>Projects</h2>
-          <div className="projects-wrapper">
-            <div className="project-card">
-              <h3>Amazon Static Page</h3>
-              <p>Responsive static replica of Amazon homepage using HTML and CSS.</p>
-              <a href="https://github.com/Lanchu14/Amazon-Static-Page" target="_blank" rel="noreferrer">GitHub Link</a>
-            </div>
-            <div className="project-card">
-              <h3>Python Basics</h3>
-              <p>Collection of basic Python programs covering loops, conditionals, and functions.</p>
-              <a href="https://github.com/Lanchu14/PYTHON-BASICS-" target="_blank" rel="noreferrer">GitHub Link</a>
-            </div>
-            <div className="project-card">
-              <h3>Truck Booking App</h3>
-              <p>Real-time truck availability, booking, and cancellation system.</p>
-              <a href="https://github.com/Lanchu14/Truck_Booking" target="_blank" rel="noreferrer">GitHub Link</a>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container">
+    <h2>Projects</h2>
+    <div className="projects-wrapper">
+      <div className="project-card">
+        <h3>Amazon Static Page</h3>
+        <p>Responsive static replica of Amazon homepage using HTML and CSS.</p>
+        <a href="https://amazon-basic-web-page.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+      </div>
+      <div className="project-card">
+        <h3>UniFind</h3>
+        <p>Web platform designed to help students discover universities based on courses, location, and eligibility criteria.</p>
+        <a href="https://lostandfound-project.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+      </div>
+      <div className="project-card">
+        <h3>Truck Booking App</h3>
+        <p>Real-time truck availability, booking, and cancellation system.</p>
+        <a href="https://github.com/Lanchu14/Truck_Booking" target="_blank" rel="noreferrer">GitHub Link</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <section className="contact-section" id="contact">
