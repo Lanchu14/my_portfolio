@@ -111,12 +111,7 @@ function App() {
   <div className="container">
     <h2>Projects</h2>
     <div className="projects-wrapper">
-      <div className="project-card">
-        <h3>Amazon Static Page</h3>
-        <p>Responsive static replica of Amazon homepage using HTML and CSS.</p>
-        <a href="https://amazon-basic-web-page.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
-      </div>
-      <div className="project-card">
+    <div className="project-card">
         <h3>UniFind</h3>
         <p>Web platform designed to help students discover universities based on courses, location, and eligibility criteria.</p>
         <a href="https://lostandfound-project.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
@@ -125,6 +120,11 @@ function App() {
         <h3>Truck Booking App</h3>
         <p>Real-time truck availability, booking, and cancellation system.</p>
         <a href="https://github.com/Lanchu14/Truck_Booking" target="_blank" rel="noreferrer">GitHub Link</a>
+      </div>
+      <div className="project-card">
+        <h3>Amazon Static Page</h3>
+        <p>Responsive static replica of Amazon homepage using HTML and CSS.</p>
+        <a href="https://amazon-basic-web-page.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
       </div>
     </div>
   </div>
