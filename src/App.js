@@ -114,7 +114,7 @@ function App() {
     <div className="project-card">
         <h3>UniFind</h3>
         <p>Web platform designed to help students discover universities based on courses, location, and eligibility criteria.</p>
-        <a href="https://lostandfound-project.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+        <a href="https://unifindproject.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
       </div>
       <div className="project-card">
         <h3>Truck Booking App</h3>
