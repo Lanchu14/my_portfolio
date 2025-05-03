@@ -13,7 +13,6 @@ Welcome to my personal portfolio website! Built using **React.js**, this site sh
 - 🛠️ Skills Display
 - 📂 Projects Showcase with GitHub/Live Links
 - 📬 Contact Buttons (Call, Email, LinkedIn)
-- 🌙 Dark Mode Styling
 - 📱 Mobile-Friendly Hamburger Menu
 - 🔗 Smooth Scrolling Navigation
 
