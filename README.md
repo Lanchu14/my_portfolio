@@ -23,7 +23,7 @@ Welcome to my personal portfolio website! Built using **React.js**, this site sh
 - **HTML5 & CSS3**
 - **JavaScript (ES6+)**
 - **React Icons**
-- **Vercel** for Deployment
+- **Netlify** for Deployment
 
 
 
