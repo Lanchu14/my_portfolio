@@ -20,7 +20,6 @@ function App() {
     setMenuOpen(!menuOpen);
   };
 
-  // Smooth scrolling effect
   useEffect(() => {
     const anchors = document.querySelectorAll('a[href^="#"]');
     anchors.forEach(anchor => {
@@ -30,7 +29,7 @@ function App() {
         if (target) {
           target.scrollIntoView({ behavior: "smooth" });
         }
-        setMenuOpen(false); // Close menu on mobile after click
+        setMenuOpen(false);
       });
     });
 
@@ -58,6 +57,7 @@ function App() {
               <li><a href="#about">About</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
+              <li><a href="#certificates">Certificates</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -108,28 +108,47 @@ function App() {
 
       {/* Projects Section */}
       <section className="projects-section" id="projects">
-  <div className="container">
-    <h2>Projects</h2>
-    <div className="projects-wrapper">
-    <div className="project-card">
-        <h3>UniFind</h3>
-        <p>Web platform designed to help students discover universities based on courses, location, and eligibility criteria.</p>
-        <a href="https://unifindproject.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
-      </div>
-      <div className="project-card">
-        <h3>Truck Booking App</h3>
-        <p>Real-time truck availability, booking, and cancellation system.</p>
-        <a href="https://github.com/Lanchu14/Truck_Booking" target="_blank" rel="noreferrer">GitHub Link</a>
-      </div>
-      <div className="project-card">
-        <h3>Amazon Static Page</h3>
-        <p>Responsive static replica of Amazon homepage using HTML and CSS.</p>
-        <a href="https://amazon-basic-web-page.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
-      </div>
-    </div>
-  </div>
-</section>
+        <div className="container">
+          <h2>Projects</h2>
+          <div className="projects-wrapper">
+            <div className="project-card">
+              <h3>UniFind</h3>
+              <p>Web platform designed to help students discover universities based on courses, location, and eligibility criteria.</p>
+              <a href="https://unifindproject.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+            <div className="project-card">
+              <h3>Truck Booking App</h3>
+              <p>Real-time truck availability, booking, and cancellation system.</p>
+              <a href="https://github.com/Lanchu14/Truck_Booking" target="_blank" rel="noreferrer">GitHub Link</a>
+            </div>
+            <div className="project-card">
+              <h3>Amazon Static Page</h3>
+              <p>Responsive static replica of Amazon homepage using HTML and CSS.</p>
+              <a href="https://amazon-basic-web-page.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      {/* Certificates Section */}
+      <section className="certificates-section" id="certificates">
+        <div className="container">
+          <h2>Certificates</h2>
+          <div className="certificates-wrapper">
+            <div className="certificate-card">
+              <img src="/certificates/certificate1.png" alt="Certificate 1" className="certificate-thumbnail" />
+              <h3 class="cerificate-title">Web Development Course</h3>
+              <a href="/certificates/certificate1.pdf" target="_blank" rel="noreferrer" className="btn">View</a>
+            </div>
+            <div className="certificate-card">
+              <img src="/certificates/certificate2.png" alt="Certificate 2" className="certificate-thumbnail" />
+               <h3 class="cerificate-title">Programming in Java</h3>
+              <a href="/certificates/certificate2.pdf" target="_blank" rel="noreferrer" className="btn">View</a>
+            </div>
+            {/* Add more certificates here as needed */}
+          </div>
+        </div>
+      </section>
 
       {/* Contact Section */}
       <section className="contact-section" id="contact">
