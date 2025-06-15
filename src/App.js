@@ -122,6 +122,11 @@ function App() {
               <a href="https://github.com/Lanchu14/Truck_Booking" target="_blank" rel="noreferrer">GitHub Link</a>
             </div>
             <div className="project-card">
+              <h3>Employee Management System</h3>
+              <p>A Java-based desktop application for managing employee records. </p>
+              <a href="https://github.com/Lanchu14/Employee_Mangement_System" target="_blank" rel="noreferrer">GitHub Link</a>
+            </div>
+            <div className="project-card">
               <h3>Amazon Static Page</h3>
               <p>Responsive static replica of Amazon homepage using HTML and CSS.</p>
               <a href="https://amazon-basic-web-page.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
